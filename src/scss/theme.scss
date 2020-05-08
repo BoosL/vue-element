@@ -1,0 +1,35 @@
+html,
+body,
+#app {
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.login {
+  background: url('~@/assets/login.jpg') no-repeat;
+  background-size: 100% 100%;
+
+  .login-c {
+    position: absolute;
+    transform: translate(0, 40%);
+    right: 240px;
+    width: 540px;
+    height: 440px;
+    background-color: white;
+    opacity: .8;
+    box-shadow: 5px 5px 5px #888888;
+    border-radius: 12px;
+    text-align: center;
+
+    .login-b {
+      margin: 60px auto;
+      width: 80%;
+      height: calc(100% - 60px);
+      .demo-ruleForm{
+        padding-right: 40px;
+      }
+    }
+  }
+}
